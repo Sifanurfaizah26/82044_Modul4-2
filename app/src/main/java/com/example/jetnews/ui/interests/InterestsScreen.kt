@@ -64,6 +64,7 @@ fun InterestsScreen(
     openDrawer: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
+
     // Returns a [CoroutineScope] that is scoped to the lifecycle of [InterestsScreen]. When this
     // screen is removed from composition, the scope will be cancelled.
     val coroutineScope = rememberCoroutineScope()

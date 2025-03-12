@@ -147,3 +147,4 @@ fun PreviewArticle() {
         ArticleScreen(PostsRepository().getPost(post3.id)!!, {})
     }
 }
+

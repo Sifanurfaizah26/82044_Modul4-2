@@ -69,6 +69,7 @@ fun InterestsScreen(
     // screen is removed from composition, the scope will be cancelled.
     val coroutineScope = rememberCoroutineScope()
 
+
     // collectAsState will read a [Flow] in Compose
     val selectedTopics by interestsRepository.observeTopicsSelected().collectAsState(setOf())
     val onTopicSelect: (TopicSelection) -> Unit = {

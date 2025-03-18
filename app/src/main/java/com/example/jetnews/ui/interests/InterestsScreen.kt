@@ -58,6 +58,7 @@ import kotlinx.coroutines.launch
  * @param interestsRepository data source for this screen
  * @param openDrawer (event) request opening the app drawer
  */
+
 @Composable
 fun InterestsScreen(
     interestsRepository: InterestsRepository,
